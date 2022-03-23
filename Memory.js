@@ -144,5 +144,8 @@ const attachEventListeners = () => {
     })
 }
 
-generateGame()
-attachEventListeners()
+
+
+
+
+
