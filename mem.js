@@ -114,7 +114,6 @@ const flipCard = card => {
         }, 1000)
     }
 
-    // If there are no more cards that we can flip, we won the game
     if (!document.querySelectorAll('.card:not(.flipped)').length) {
         setTimeout(() => {
             selectors.boardContainer.classList.add('flipped')
