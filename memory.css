@@ -6,41 +6,42 @@
 html {
     width: 100%;
     height: 100%;
-    background: linear-gradient(300deg,  #2D132C 0%,#801336 50%,#C72C41 100%);
-    font-family: Fredoka;
+    background: "hfoto.jpg"
+   
 }
 
 .game {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .controls {
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
 button {
-    background: #282A3A;
-    color: #FFF;
-    border-radius: 5px;
+    background: #C72C41;
+    color: #2D132C;
+    border-radius: 10px;
     padding: 10px 20px;
     border: 0;
     cursor: pointer;
     font-family: Press Start 2P;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .disabled {
-    color: #757575;
+    color: #2D132C;
 }
 
 .stats {
-    color: #FFF;
-    font-size: 14pt;
+    color: #2D132C;
+    font-size: 15pt;
 }
 
 .board-container {
@@ -51,7 +52,7 @@ button {
 .win {
     border-radius: 5px;
     box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
-    background: linear-gradient(135deg,  #EE4540 0%,#C72C41 50%,#801336 100%);
+    background: transparent;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
@@ -84,7 +85,7 @@ button {
     border-radius: 5px;
     width: 100%;
     height: 100%;
-    background: #282A3A;
+    background: #801336;
     transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
     backface-visibility: hidden;
 }
@@ -95,7 +96,7 @@ button {
     user-select: none;
     text-align: center;
     line-height: 100px;
-    background: #FDF8E6;
+    background: #C72C41;
 }
 
 .card.flipped .card-front {
@@ -113,7 +114,7 @@ button {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: #2D132C;
+    background: transparent;
     transform: rotateY(180deg) rotateZ(50deg);
 }
 
@@ -123,9 +124,10 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 21pt;
-    color: #FDF8E6;
+    color: #2D132C;
 }
 
 .highlight {
     color: #EE4540;
+
 }
