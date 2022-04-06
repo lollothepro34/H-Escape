@@ -1,16 +1,18 @@
+
 html,body { 
-    font-size: 1.2em;
-    font-family: 'Arvo', serif;
+    font-size: 1.4em;
+    font-family: 'Grape Nuts', cursive;
     text-align: center;
+    color: #000000;
 }
 
 a {
-    color: #000;
+    color: #c72c41;
     margin: 0.2em;
     text-decoration: none;
 }
 
-#hangm_gameover, #hangm_victory {
+#hangm_gameover, #hangm_victory {  
     font-size: 2em;
 }
 
@@ -46,7 +48,6 @@ section#hangman {
     position: relative;
     bottom: 150px;
     left: 112px;
-	/* width and height can be anything, as long as they're equal */
 }
 
 .man_upper {
