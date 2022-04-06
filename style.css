@@ -1,4 +1,9 @@
-
+body{
+    background-image: url('IMG_4535.jpg') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+  height: 100vh;
+}
 @font-face {
     font-family: 'Press Start 2P', cursive;
     src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
