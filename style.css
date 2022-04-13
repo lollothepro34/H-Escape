@@ -5,14 +5,14 @@ body{
     height: 100vh;
 }
 .bg-moving{
-    animation: bgAnim 180s  linear infinite;
+    animation: bgAnim 5000s ;
 }
 @keyframes bgAnim {
     0%{
         background-position: 210px;
     }
     100%{
-        background-position: -200000px;
+        background-position: -2500000px;
     }
 }
 
@@ -37,4 +37,11 @@ html {
  .btn btn-outline-light {
      color: brown;
 
+    }
+
+    .car {
+        left: 9%;
+        top: 50%;
+       position: absolute;
+        
     }
