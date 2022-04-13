@@ -10,7 +10,7 @@ var Hangman = (function () {
       this.words      = [
         'H-FARM', 'SCHOOL', 'LEARNING', 'HOMEWORK',
         'DESKS', 'PEN', 'PLAYTIME', 'TYPEWRITER', 'CODER', 
-        'PROF', 'MANAGEBAC', 'IPAD', 'COMPUTER', 'BOOKS'
+        'PROF', 'MANAGEBAC', 'IPAD', 'COMPUTER', 'BOOKS', 'STUDY', 'HTML', 'CSS'
       ];
   }
 
