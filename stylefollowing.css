@@ -1,6 +1,11 @@
-.car {
-    src: url('IMG_4466.PNG');
-}
-.img{
-    size: 3cm;
+
+.center-text{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 100%;
+    transform: translate(-40%,-60%);
+    
+    padding: 10px;
+    border-radius: 2rem; 
 }
